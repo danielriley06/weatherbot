@@ -2,6 +2,7 @@
 
 require 'slack-ruby-bot'
 require_relative 'commands/weather_now'
+require_relative 'commands/weather_tomorrow'
 
 SlackRubyBot::Client.logger.level = Logger::WARN
 
