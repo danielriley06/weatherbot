@@ -106,6 +106,7 @@ GEM
       faraday
       hashie
       multi_json
+    geocoder (1.5.0)
     gli (2.18.0)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
@@ -246,6 +247,7 @@ DEPENDENCIES
   chromedriver-helper
   coffee-rails (~> 4.2)
   forecast_io
+  geocoder
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   pg (>= 0.18, < 2.0)
