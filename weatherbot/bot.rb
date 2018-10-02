@@ -21,8 +21,8 @@ module SlackWeatherBot
         desc "Gives you tomorrow's forecast"
       end
 
-      command 'weather in <location>?' do
-        desc "Gives you tomorrow's forecast"
+      command 'weather in <location>' do
+        desc "Gives you the forecast for any location's city, state, zip (e.g. los angeles, omaha NE, 07040, etc.)"
       end
     end
   end
