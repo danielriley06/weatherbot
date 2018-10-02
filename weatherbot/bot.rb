@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require 'slack-ruby-bot'
+require_relative 'commands/weather_now'
 
 SlackRubyBot::Client.logger.level = Logger::WARN
 
